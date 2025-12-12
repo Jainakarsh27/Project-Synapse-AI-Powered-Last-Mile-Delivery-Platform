@@ -1,126 +1,58 @@
-Absolutely — I will create a **professional, GitHub-ready README.md** for your **Project Synapse – AI-Powered Last-Mile Delivery Platform** based entirely on the details from your **resume** and earlier explanations.
-This README will look clean, polished, and industry-standard — perfect for recruiters and interviewers.
+# 🚚 Project Synapse: AI-Powered Last-Mile Delivery Platform (Vengers Delivery App)
+
+### 🧠 Overview
+*Project Synapse (Vengers Delivery App)* is an *AI-powered last-mile delivery platform* that streamlines parcel delivery operations through intelligent automation.  
+It provides a dual-interface system for *customers* and *riders*, enabling seamless booking, dispatch, tracking, and delivery — all within a single platform.  
+
+Built as a *full-stack application, it integrates **FastAPI, **SQLModel, **TailwindCSS, and **LLMs (Large Language Models)* to deliver optimized routes, real-time tracking, and automated customer support.
 
 ---
 
-# ⭐ **README.md for Project Synapse (Frontend Focus)**
-
-(You can copy–paste directly into GitHub.)
-
----
-
-# 🚚 **Project Synapse – AI-Powered Last-Mile Delivery Platform**
-
-A modern, responsive, and intuitive **AI-enhanced last-mile delivery platform** built to streamline customer and rider workflows, reduce delivery failures, and enhance navigation using intelligent UI components.
-
-This project focuses heavily on **frontend engineering**, **UX design**, and **AI-assisted automation**, developed using **HTML5, TailwindCSS, and JavaScript (ES6+)**.
+### 💡 Key Features
+- 🧭 *Dual Dashboard System* — Separate dashboards for customers and riders  
+- 🧠 *AI Integration (LLM)* — Smart address verification and optimized delivery route planning  
+- 🌍 *Real-Time Tracking* — Implemented using *Leaflet.js* for dynamic delivery visualization  
+- 💬 *AI Chatbot* — Provides customer support and automated issue resolution  
+- ⚡ *FastAPI Backend* — Built complete REST APIs with efficient database integration using SQLModel  
+- 🗂 *Database Management* — Handles orders, users, routes, and transaction data securely  
+- 🎨 *Responsive UI* — Developed with TailwindCSS for sleek and adaptive design  
+- ☁ *Cloud Deployable* — Designed for easy hosting and scaling on cloud environments  
 
 ---
 
-## 🌟 **Live Demo**
-
-👉 *(Add your link here once deployed)*
-
----
-
-## 🧩 **Problem Statement**
-
-Managing last-mile delivery operations often leads to confusion, inefficient routing, and high failure rates due to inaccurate addresses. Delivery apps frequently require multiple steps, offer limited real-time assistance, and lack AI-powered validation.
-
-This project was built to solve those pain points by providing:
-
-* A clean **dual-role interface** (Customer + Rider),
-* Smart **AI-driven address verification**,
-* A responsive and intuitive design,
-* Faster and clearer navigation with automated suggestions.
+### 🧰 Tech Stack
+| Component | Technology Used |
+|------------|------------------|
+| *Frontend* | HTML, CSS, JavaScript, TailwindCSS |
+| *Backend* | Python, FastAPI |
+| *Database* | SQLModel / PostgreSQL |
+| *AI/ML* | LLM Integration (for address verification & chatbot) |
+| *Mapping* | Leaflet.js (for real-time route visualization) |
+| *Hosting* | AWS / Render / Railway |
+| *Version Control* | Git & GitHub |
 
 ---
 
-## ✨ **Key Features**
+### ⚙ Installation & Setup
 
-### **🔵 1. Dual Dashboard System**
+Follow these steps to set up and run the project locally:
 
-* **Customer Dashboard**: Order tracking, live status, delivery updates.
-* **Rider Dashboard**: Task assignment UI, delivery route overview, pickup/drop screens.
+bash
+# Clone this repository
+git clone https://github.com/Jainadarsh101805/Project-Synapse.git
 
----
+# Move into the project folder
+cd Project-Synapse
 
-### **🤖 2. VengerBot – AI Chat Assistant**
+# Backend setup
+cd Backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-A custom-built chatbot interface that:
-
-* Supports quick actions to guide customers and riders.
-* Uses external APIs (mocked frontend integration).
-* Helps with address clarification and order queries.
-
----
-
-### **📍 3. AI-Based Address Verification**
-
-* Suggests possible locations when exact match fails.
-* Highlights errors and provides alternative delivery spots.
-* Reduces delivery failure rate by validating patterns.
-
----
-
-### **📱 4. Fully Responsive Frontend**
-
-Designed with **TailwindCSS**, ensuring smooth experience on:
-
-* Desktops
-* Tablets
-* Mobile phones
-
----
-
-### **⚡ 5. Modern UI Components**
-
-Includes:
-
-* Status timelines
-* Delivery progress indicators
-* Navigation cards
-* Error alerts
-* Structured forms
-
----
-
-## 🛠️ **Tech Stack**
-
-| Area           | Technology                       |
-| -------------- | -------------------------------- |
-| Frontend       | HTML5                            |
-| Styling        | TailwindCSS                      |
-| Logic          | JavaScript (ES6+)                |
-| AI Integration | External API mock + custom logic |
-| Tools          | VS Code, Chrome DevTools         |
-
----
-
-## 🚀 **How to Use**
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone <your_repo_link_here>
-```
-
-### 2️⃣ Navigate to project
-
-```bash
-cd project-synapse
-```
-
-### 3️⃣ Run the app
-
-This is a **static frontend project**, so simply open:
-
-```
-index.html
-```
-
-in any browser.
-
+# Frontend setup
+cd frontend
+npm install
+npm start
 ---
 
 ## 🧠 **System Workflow**
@@ -164,18 +96,6 @@ Implemented loading skeletons + fallback UI.
 
 ---
 
-## 📷 **Screenshots**
-
-*(Add your screenshots here after development)*
-Example:
-
-```
-/screenshots/dashboard.png
-/screenshots/chatbot.png
-/screenshots/address-validation.png
-```
-
----
 
 ## 📄 **License**
 
@@ -186,19 +106,6 @@ MIT License © 2025 Akarsh Jain
 ## 🙌 **Author**
 
 **Akarsh Jain**
-Frontend Developer | AI-Enhanced UI Designer
+Frontend Developer | AI-Enhanced UI Designer | Java Developer 
 
-* LinkedIn: *(add here)*
-* Portfolio: *(add if you have)*
-
----
-
-# 🎉 **Your README is ready!**
-
-If you want:
-✅ A **banner image** for top of README
-✅ A **logo + favicon for Synapse**
-✅ A **GIF of dashboard animation**
-✅ A **shorter version for GitHub**
-
-Just say: **“Give me GitHub banner + assets”** or **“Make a shorter version”**.
+* LinkedIn: *(https://www.linkedin.com/in/akarsh-jain-940220252/)*
